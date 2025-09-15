@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageIcon>istockphoto-172197922-612x612 (1).jpg</PackageIcon>
+    <ApplicationIcon>istockphoto-172197922-612x612-_1_.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="istockphoto-172197922-612x612-_1_.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\3291922-1\Downloads\istockphoto-172197922-612x612 (1).jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
